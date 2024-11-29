@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>With JavaScript</title>
+    <style>
+        body {
+            background-color: burlywood;
+        }
+        button {
+            background-color: blanchedalmond;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            box-shadow: 0px 0px 20px 1px gray;
+            border: solid 4px orange;
+        }
+        img {
+            border: 5px solid orange;
+            box-shadow: 0px 0px 20px 1px gray;
+            width: 200px;
+            height: 150px;
+        }
+        .container1 {
+            display: flex;
+            justify-content: center;
+            padding: 5px;
+        }
+        .container2 {
+            display: flex;
+            justify-content: center;
+            gap: 5px;
+        }
+        .tanan {
+            margin-top: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="tanan">
+        <div class="container1">
+            <img src="bones1.jpg" id="imgS" class="image">
+        </div>
+        <div class="container2">
+            <button onclick="document.getElementById('imgS').src='bones1.jpg'">CLICK HERE</button>
+            <button onclick="document.getElementById('imgS').src='bones2.jpg'">CLICK HERE</button>
+        </div>
+    </div>
+
+</body>
+</html>
